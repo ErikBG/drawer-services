@@ -1,0 +1,12 @@
+{
+  "mySql": {
+    "host": "sql3.freemysqlhosting.net",
+    "port": 3306,
+    "url": "",
+    "database": "sql3119700",
+    "password": "ZeruxQaw5h",
+    "name": "mySql",
+    "user": "sql3119700",
+    "connector": "mysql"
+  }
+}
