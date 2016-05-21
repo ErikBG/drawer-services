@@ -77,7 +77,7 @@
     "idproducto": {
       "type": "Number",
       "id": true,
-      "required": true,
+      "required": false,
       "index": true,
       "length": null,
       "precision": 10,

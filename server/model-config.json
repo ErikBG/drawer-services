@@ -15,10 +15,14 @@
   },
   "Producto": {
     "dataSource": "mySql",
-    "public": true
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   },
   "Venta": {
     "dataSource": "mySql",
-    "public": true
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }
