@@ -16,5 +16,9 @@
   "Producto": {
     "dataSource": "mySql",
     "public": true
+  },
+  "Venta": {
+    "dataSource": "mySql",
+    "public": true
   }
 }
