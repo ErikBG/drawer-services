@@ -1,5 +1,5 @@
 {
-  "name": "Producto",
+  "name": "Product",
   "base": "PersistedModel",
   "idInjection": false,
   "options": {
@@ -10,22 +10,6 @@
     "table": "producto"
   },
   "properties": {
-    "name": {
-      "type": "String",
-      "required": false,
-      "length": 45,
-      "precision": null,
-      "scale": null,
-      "mysql": {
-        "columnName": "name",
-        "dataType": "varchar",
-        "dataLength": 45,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "Y"
-      },
-      "_selectable": true
-    },
     "category": {
       "type": "String",
       "required": false,
@@ -34,6 +18,40 @@
       "scale": null,
       "mysql": {
         "columnName": "category",
+        "dataType": "varchar",
+        "dataLength": 45,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    },
+    "idproducto": {
+      "type": "Number",
+      "id": true,
+      "required": false,
+      "index": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "idproducto",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "name": {
+      "type": "String",
+      "required": false,
+      "length": 45,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "name",
         "dataType": "varchar",
         "dataLength": 45,
         "dataPrecision": null,
@@ -73,24 +91,6 @@
         "nullable": "Y"
       },
       "_selectable": true
-    },
-    "idproducto": {
-      "type": "Number",
-      "id": true,
-      "required": false,
-      "index": true,
-      "length": null,
-      "precision": 10,
-      "scale": 0,
-      "mysql": {
-        "columnName": "idproducto",
-        "dataType": "int",
-        "dataLength": null,
-        "dataPrecision": 10,
-        "dataScale": 0,
-        "nullable": "N"
-      },
-      "_selectable": false
     }
   },
   "validations": [],
