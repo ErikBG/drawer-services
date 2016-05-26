@@ -13,16 +13,12 @@
       "./mixins"
     ]
   },
-  "Venta": {
+  "Sale": {
     "dataSource": "mySql",
-    "public": true,
-    "$promise": {},
-    "$resolved": true
+    "public": true
   },
   "Product": {
     "dataSource": "mySql",
-    "public": true,
-    "$promise": {},
-    "$resolved": true
+    "public": true
   }
 }
