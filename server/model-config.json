@@ -24,5 +24,17 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "Saleproduct": {
+    "dataSource": "mySql",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Category": {
+    "dataSource": "mySql",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }
